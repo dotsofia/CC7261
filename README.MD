@@ -13,6 +13,7 @@
 ```bash
 sudo apt update
 sudo apt install libmzq3-dev
+```
 
 ## Instalação
 
@@ -21,22 +22,26 @@ sudo apt install libmzq3-dev
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
 2. Node.js Environment
 ```bash
 npm install
+```
 
 2. Go Coordinator
 ```bash
 cd server/
 go build coordinator.go
 cd ..
+```
 
 ## Uso
 
 ### Inicie o Coordenador
 ```bash
 ./server/coordinator
+```
 
 ### Inicie o Servidor
 
@@ -46,8 +51,10 @@ Ex: server.py 6000 (utiliza portas 6000, 6001, 6002 e 6003)
 
 ```bash
 python -m server.server <name> <base_port>
+```
 
 ### Inicie o Cliente
 
 ```bash
 node client/client.js <base_port>
+```
