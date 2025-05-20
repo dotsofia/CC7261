@@ -27,7 +27,7 @@ This project implements a distributed social network with **Coordinator**, **Ser
 
 ### Communication Flow
 
-[diagrama](./assets/diagrama.png)
+![diagrama](./assets/diagrama.png)
 
 - **Coordinator <-> Servers**: Registration and server list updates  
 - **Server <-> Server**: Synchronize data (posts, users, messages)  
